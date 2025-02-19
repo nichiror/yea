@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+  }
+  nav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    background-color: rgb(51, 51, 63);
+    padding-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  nav a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(66, 66, 85);
+    padding: 15px;
+    margin: 10px 0; 
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+  nav a:hover {
+    background-color: rgb(195, 142, 234);
+    border: 3px solid;
+  }
+
+  .main {
+    margin-left: 200px; 
+    padding: 5px 10px;
+  }
+  .logo{
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    color: white;
+    padding: 10px 40px;
+    color: rgb(255, 255, 255); 
+    text-shadow: 3px 3px 3px #ababab;
+    text-transform:uppercase;
+  }
+  .title{
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    display: flex;
+  }
+  .textabt{
+    margin-left:200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.home{
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px; 
+}
+.imgtitle{
+    border-radius: 8px;
+    border: 10px solid #44a590;
+    height:300px;   
+}
+.center{
+    text-align: center;
+}
+.content-box {
+  width: 70%; 
+  margin: 20px auto 20px 220px; 
+  padding: 20px; 
+  border: 2px solid rgb(66, 66, 85); 
+  border-radius: 10px; 
+  background-color: rgb(242, 242, 242); 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex; 
+  flex-wrap: wrap; /* Allow wrapping if screen is small */
+  justify-content: center; /* Center the polaroids */
+  gap: 20px; /* Space between polaroids */
+}
+
+.polaroid {
+  width: 250px;
+  height: auto;
+  box-shadow: 0 14px 18px 0 rgba(0, 0, 0, 0.2), 0 16px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  background: white;
+  padding-bottom: 10px;
+}
+.polaroid-display {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.polaroid img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  padding: 10px;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(66, 66, 85);
+  
+}
+.container-d{
+  display: flex;  /* Makes image and text appear in one row */
+  align-items: center; /* Centers items vertically */
+  gap: 15px; /* Space between image and text */
+}
+
+.container img {
+  width: 150px;  /* Adjust size as needed */
+  height: auto;
+}
+.solid {
+  border: none;  /* Remove default border */
+  height: 2px;  /* Set thickness */
+  background-color: black;  /* Line color */
+  width: 100%;  /* Full width */
+  margin: 20px 0;  /* Spacing */
+}
+
+#gallery {
+  margin-left: 200px;
+  background-color: #e8f0fe;
+}
+
+#contact {
+  background-color: #e0f7fa;
+}
+
+#about {
+  background-color: #fce4ec;
+}
+section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth animation */
+}
+
+section:hover {
+  transform: translateY(-5px); /* Moves section slightly up */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Adds shadow for a floating effect */
+}
